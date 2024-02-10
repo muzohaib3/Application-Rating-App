@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>First Application</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="main-body">
+
+            <div id="main-div" style="text-align: center;">
+            
+                <p id="login-text">Login here.</p>
+                <br>
+
+                <img id="login-icon" src="user.png" alt="Sandwich Icon">
+                <br>
+
+                <form action="/url" method="GET">
+                    
+                    <input id="user_email" type="text" placeholder="Enter email">
+                    <br>
+
+                    <input id="user_password" type="text" placeholder="Enter password">
+                    <br>
+
+                    <button type="button" id="login-button" onclick="myInputs()">Login</button>
+
+                </form>
+
+                <script>
+
+                    function myInputs(){
+
+                        const email = document.getElementById("user_email");
+                        const emailData = email.value;
+
+                        const password = document.getElementById("user_password");
+                        const passwordData = password.value;
+
+                        const firstInput = emailData;
+                        const secondInput = passwordData;
+
+                        alert("firstInput " + firstInput + " secondInput" + secondInput+ "");
+
+                        if (firstInput == "" || secondInput == "") {
+                            alert("field is empty");
+                        } 
+                        else {
+                            alert("email of user is "+firstInput+" and the second value is "+secondInput);
+                        }
+
+                    }
+
+                </script>
+
+            </div>
+       
+    </body>
+
+</html>
+

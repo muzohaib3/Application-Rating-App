@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="textsize_medium">20sp</dimen>
+    <dimen name="width_medium">460dp</dimen>
+    <dimen name="margin_top_medium">30dp</dimen>
+    <dimen name="fav_img_width_height">60dp</dimen>
+
+    <dimen name="element_margin">20dp</dimen>
+    <dimen name="element_margin3">10dp</dimen>
+
+    <dimen name="search_button_width">35dp</dimen>
+    <dimen name="search_button_height">35dp</dimen>
+
+    <dimen name="button_dashboard_width">300dp</dimen>
+    <dimen name="button_dashboard_height">60dp</dimen>
+
+    <dimen name="text_size_heading">20sp</dimen>
+    <dimen name="padding_small">11dp</dimen>
+
+    <dimen name="principal_image_width">300dp</dimen>
+    <dimen name="principal_image_height">300dp</dimen>
+
+</resources>

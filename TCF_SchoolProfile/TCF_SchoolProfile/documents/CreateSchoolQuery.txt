@@ -1,0 +1,18 @@
+CREATE TABLE tblSchools2(
+    ID INTEGER , SchoolID INTEGER , areaID INTEGER , AreaManagerID INTEGER ,Longitude REAL,Latitude REAL,
+	School TEXT,SchoolLocalName TEXT,Cluster TEXT,Area TEXT,Units INTEGER,Principal TEXT,PrincipalContact TEXT,
+	PrincipalRanking TEXT,AreaManager TEXT,AreaManagerContact TEXT,AEM TEXT,SSR_Month INTEGER,SSR_YEAR INTEGER,OperationalUtilization INTEGER,
+	EnrollmentTargetAchieved INTEGER,FemaleRatio INTEGER,TargetAPR TEXT,APR TEXT,BuildDonor TEXT,SupportDonor TEXT,
+	AccountManager TEXT,VisitsLastMonth INTEGER,Province TEXT,District TEXT,City TEXT,Town TEXT,Region TEXT,ClassRooms INTEGER,
+	ActiveClasses INTEGER,TotalStrength INTEGER,KG_Female_Ratio INTEGER,C6_Female_Ratio INTEGER,Withdrawals INTEGER,
+	Admissions INTEGER,EC TEXT ,Establishment_Year INTEGER,SSR_Month_Name TEXT,Last_Visit_AM TEXT,Last_Visit_AEM TEXT,
+	isActive NUMERIC,LastUpdated NUMERIC,IMEI NUMERIC,DummyField INTEGER,PQIScorePreviousSession INTEGER,
+	WSIScoreCurrentSession INTEGER,WSIScorePreviousSession INTEGER,TCTScoreCurrentSession INTEGER,
+	TCTScorePreviousSession INTEGER,PrincipalQualification TEXT,PrincipalProfessional_Qualification TEXT,
+	LandDonor TEXT,AEM_Contact TEXT,SSRTargetAchieved TEXT,SSRTarget TEXT,BestTeacher TEXT,BestSubject TEXT,
+	Total_Visits_this_session_by_AM INTEGER,Total_Visits_this_session_by_AEM INTEGER,Last_Visit_RM TEXT,
+	Last_Visit_REM TEXT,Principal_Joining_Date TEXT,Principal_Of_School_Since TEXT,EEScorePreviousSession TEXT,
+	EEScoreCurrentSession TEXT,AuditScoreCurrentSession TEXT,AuditScorePreviousSession TEXT,ExternalEvaluationCurrSession TEXT,
+	ExternalEvaluationPreviousSession TEXT,Visits_to_EC_by_AM TEXT,Visits_to_EC_by_AEM TEXT,Visits_to_EC_by_RM TEXT,
+	principal_image_file_name TEXT,EmpID TEXT,CurrentSession TEXT,PreviousSession TEXT
+    );
