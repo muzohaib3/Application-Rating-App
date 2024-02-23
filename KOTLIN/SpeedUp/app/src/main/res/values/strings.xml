@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpeedUp</string>
+    <string name="school_id">Enter school id</string>
+    <string name="school_name">Enter school name</string>
+</resources>
