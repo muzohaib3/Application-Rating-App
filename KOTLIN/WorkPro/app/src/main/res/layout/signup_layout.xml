@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/llSign"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<!--    <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="30dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/signup_here"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etSignupEmail"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:elevation="2dp"-->
+<!--                android:background="@drawable/gray_rounded_bg"-->
+<!--                android:hint="@string/enter_email"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="@color/gray_200"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etSignupPassword"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:elevation="2dp"-->
+<!--                android:background="@drawable/gray_rounded_bg"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="@color/gray_200"-->
+<!--                android:textStyle="bold"-->
+<!--                android:hint="@string/enter_pass" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etSignupPhNo"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:elevation="2dp"-->
+<!--                android:background="@drawable/gray_rounded_bg"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="@color/gray_200"-->
+<!--                android:textStyle="bold"-->
+<!--                android:hint="@string/enter_phone_num" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etSignupUName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:elevation="2dp"-->
+<!--                android:background="@drawable/gray_rounded_bg"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="@color/gray_200"-->
+<!--                android:textStyle="bold"-->
+<!--                android:hint="@string/enter_full_name" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/btSignup"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/sea_blue_rounded_bg"-->
+<!--                android:text="@string/signup"-->
+<!--                android:textColor="@color/white"/>-->
+
+<!--        </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
