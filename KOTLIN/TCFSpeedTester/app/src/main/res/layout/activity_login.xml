@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.LoginActivity"
+    android:background="@color/app_black">
+
+    <LinearLayout
+        android:id="@+id/llSchoolDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rss" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/login_here"
+            android:textSize="35sp"
+            android:layout_gravity="start"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <EditText
+            android:id="@+id/etSchoolId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gray_rounded_bg"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/school_id"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etSchoolName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:maxLines="1"
+            android:background="@drawable/gray_rounded_bg"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/school_name"
+            android:padding="10dp"
+            android:textColorHint="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/orange_rounded_bg"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

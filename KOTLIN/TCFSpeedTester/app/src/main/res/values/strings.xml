@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TCFSpeedTester</string>
+    <string name="school_id">Enter school id</string>
+    <string name="school_name">Enter school name</string>
+    <string name="login">Enter Details</string>
+    <string name="notification_header">TCF Speed Test</string>
+
+    <string name="action_service_check">Check service</string>
+    <string name="service_title">Speed tester service</string>
+    <string name="service_summary">This is a foreground service Notification</string>
+    <string name="service_start">Service start</string>
+    <string name="service_stop">Service stop</string>
+    <string name="service_running">Service is running</string>
+    <string name="service_not_running">Service is not running</string>
+    <string name="no_database">No database found</string>
+    <string name="login_here">Login</string>
+</resources>
