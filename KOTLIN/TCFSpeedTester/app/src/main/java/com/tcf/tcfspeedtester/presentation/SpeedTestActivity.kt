@@ -49,7 +49,7 @@ class SpeedTestActivity : AppCompatActivity() {
         } else {
             toast("No connected available. Connect to internet")
         }
-
+        //Commit
         time = 3 * 60 * 1000
         GlobalScope.launch(Dispatchers.IO) {
             delay(time)
