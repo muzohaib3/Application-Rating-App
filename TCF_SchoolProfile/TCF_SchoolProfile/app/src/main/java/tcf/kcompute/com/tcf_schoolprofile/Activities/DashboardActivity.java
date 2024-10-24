@@ -1,18 +1,19 @@
 package tcf.kcompute.com.tcf_schoolprofile.Activities;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.Settings;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
@@ -33,7 +34,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     Button btnSchoolProfile, btnShowMap;
 
     @Override
-    public void onBackPressed() {
+    public void onBackPressed()
+    {
 //        super.onBackPressed();
         new AlertDialog.Builder(DashboardActivity.this)
                 .setTitle("Exit")
@@ -55,7 +57,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
@@ -68,7 +71,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         askPermission();
     }
 
-    private void askPermission() {
+    private void askPermission()
+    {
         if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED ||
                 ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -116,7 +120,8 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
      * Navigates user to app settings
      * NOTE: Keep proper title and message depending on your app
      */
-    private void showSettingsDialog() {
+    private void showSettingsDialog()
+    {
         AlertDialog.Builder builder = new AlertDialog.Builder(DashboardActivity.this);
         builder.setTitle("Need Permissions");
         builder.setMessage("This app needs permission to use this feature. You can grant them in app settings.");
@@ -134,7 +139,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
             }
         });
         builder.show();
-
     }
 
     // navigating user to app settings
@@ -156,4 +160,5 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 break;
         }
     }
+
 }
