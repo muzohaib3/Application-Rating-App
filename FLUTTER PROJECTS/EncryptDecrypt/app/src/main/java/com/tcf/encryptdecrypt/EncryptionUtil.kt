@@ -49,4 +49,5 @@ object EncryptionUtil {
         val decryptedBytes = cipher.doFinal(encryptedBytes)
         return String(decryptedBytes)
     }
+
 }
